@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat with Sheldon</title>
+</head>
+<body>
+    <h2 style="font-style:italic; text-align:center">Chat bot Sheldon</h2>
+
+    <p style="text-align:center">Home work 1</p>
+
+    <p style="text-align:center">by Petrov DE</p>
+
+    <hr />
+    <div>
+        <p style="text-align:center">Answer: {{ answer }}</p>
+    </div>
+    <form method="post" action="/" style="text-align:center">
+        <label>
+            Context:
+        </label>
+        <label>
+            <input type="text" name="context"/>
+        </label>
+        <label>
+            Question:
+        </label>
+        <label>
+            <input type="text" name="question"/>
+        </label>
+        <input type="submit" value="One answer" name="get_answer"/>
+        <input type="submit" value="Five answer" name="get_answer_corpus" />
+    </form>
+</body>
+</html>
