@@ -54,4 +54,4 @@ def get_best_answer(
         context: str,
         question: str
 ) -> str:
-    return get_range_answers(context, question, 1)[0][1]
+    return get_range_answers(context, question, 1)
